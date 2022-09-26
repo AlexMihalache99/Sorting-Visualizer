@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body style="background-color:blueviolet">
+
+    <div class="container">
+
+        <div class="bars_container" id="bars_container"></div>
+
+        <div class="buttons_container">
+            <button id="random_array" type="button" class="btn btn-info btn-lg"> Random array</button>
+            <button id="bubblesort" type="button" class="btn btn-info btn-lg"> Bubble Sort</button>
+            <button id="insertionsort" type="button" class="btn btn-info btn-lg"> Insertion Sort</button>
+            <button id="heapsort" type="button" class="btn btn-info btn-lg"> Heap Sort</button>
+            <button id="quicksort" type="button" class="btn btn-info btn-lg"> Quick Sort</button>
+            <button id="stopsorting" type="button" class="btn btn-danger btn-lg"> Stop Sorting</button>
+        </div>
+
+        <div class="labels">
+
+            <label id="minutes" class="labels">00</label>
+            :
+            <label id="seconds" class="labels">00</label>
+
+        </div>
+        
+
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="app.js" charset="utf-8"></script>
+
+</body>
+</html>
