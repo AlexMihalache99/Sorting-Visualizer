@@ -21,3 +21,7 @@ You can find the project at [Sorting Visualizer](https://alexmihalache99.github.
 - Adding merge sort <br>
 - Adding speed slider <br>
 - Adding interval option <br>
+
+<hr>
+
+If you like this project, please consider giving it a star⭐! Would help me a lot!
